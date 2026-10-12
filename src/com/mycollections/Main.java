@@ -41,7 +41,7 @@ public class Main {
         System.out.println(myList); // Output: [2008765000, 4566320000, 80000000098]
 
         // Replace.
-        myList.replaceAll((el) -> myList.getFirst() * 2 );
+        myList.replaceAll((el) -> myList.getFirst() * 2);
 
         // Read.
         System.out.println(myList); // Output: [4017530000, 8035060000, 8035060000]
